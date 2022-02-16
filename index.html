@@ -1,0 +1,384 @@
+<html>
+    
+<link href="styles.css" rel="stylesheet">
+
+    <title>JavaScript Objects Cheatsheet</title>
+    <body>
+        <h1>String objects</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Object</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description of method in the object</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="object">string.length()</td>
+                    <td>Length</td>
+                    <td>The String object's charAt() method returns a new string consisting of the single UTF-16 code unit located at the specified offset into the string.</td>
+                </tr>
+                <tr>
+                <tr>
+                    <td id="object">string.charAt()</td>
+                    <td>Character At</td>
+                    <td>The String object's charAt() method returns a new string consisting of the single UTF-16 code unit located at the specified offset into the string.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.charCodeAt()</td>
+                    <td>Character Code At</td>
+                    <td>The charCodeAt() method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.codePointat()</td>
+                    <td>Code Point At</td>
+                    <td>The codePointAt() method returns a non-negative integer that is the Unicode code point value at the given position.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.concat()</td>
+                    <td>Concatenate</td>
+                    <td>The concat() method concatenates the string arguments to the calling string and returns a new string.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.endsWith()</td>
+                    <td>Ends With</td>
+                    <td>The endsWith() method determines whether a string ends with the characters of a specified string, returning true or false as appropriate.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.fromCharCode()</td>
+                    <td>From Character Code</td>
+                    <td>The static String.fromCharCode() method returns a string created from the specified sequence of UTF-16 code units.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.fromCodePoint()</td>
+                    <td>From Code Point</td>
+                    <td>The static String.fromCodePoint() method returns a string created by using the specified sequence of code points.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.includes()</td>
+                    <td>Includes</td>
+                    <td>The includes() method performs a case-sensitive search to determine whether one string may be found within another string, returning true or false as appropriate.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.indexOf()</td>
+                    <td>Index Of</td>
+                    <td>The indexOf() method, given one argument: a substring to search for, searches the entire calling string, and returns the index of the first occurrence of the specified substring. Given a second argument: a number, the method returns the first occurrence of the specified substring at an index greater than or equal to the specified number.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.lastIndexOf()</td>
+                    <td>Last Index Of</td>
+                    <td>The lastIndexOf() method, given one argument: a substring to search for, searches the entire calling string, and returns the index of the last occurrence of the specified substring. Given a second argument: a number, the method returns the last occurrence of the specified substring at an index less than or equal to the specified number.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.localeCompare()</td>
+                    <td>Locale Compare</td>
+                    <td>The localeCompare() method returns a number indicating whether a reference string comes before, or after, or is the same as the given string in sort order.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.match()</td>
+                    <td>Match</td>
+                    <td>The match() method retrieves the result of matching a string against a regular expression.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.matchAll()</td>
+                    <td>Match All</td>
+                    <td>The matchAll() method returns an iterator of all results matching a string against a regular expression, including capturing groups.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.normalize()</td>
+                    <td>Normalize</td>
+                    <td>The normalize() method returns the Unicode Normalization Form of the string.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.padEnd()</td>
+                    <td>Pad End</td>
+                    <td>The padEnd() method pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of the current string.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.padStart()</td>
+                    <td>Pad Start</td>
+                    <td>The padStart() method pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of the current string.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.raw()</td>
+                    <td>Raw</td>
+                    <td>The static String.raw() method is a tag function of template literals. This is similar to the r prefix in Python, or the @ prefix in C# for string literals. It's used to get the raw string form of template literals, that is, substitutions (e.g. ${foo}) are processed, but escapes (e.g. \n) are not.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.repeat()</td>
+                    <td>Repeat</td>
+                    <td>The repeat() method constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.replace()</td>
+                    <td>Replace</td>
+                    <td>The replace() method returns a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match. If pattern is a string, only the first occurrence will be replaced.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.replaceAll()</td>
+                    <td>Replace All</td>
+                    <td>The replaceAll() method returns a new string with all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.search()</td>
+                    <td>Search</td>
+                    <td>The search() method executes a search for a match between a regular expression and this String object.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.slice()</td>
+                    <td>Slice</td>
+                    <td>The slice() method extracts a section of a string and returns it as a new string, without modifying the original string.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.split()</td>
+                    <td>Split</td>
+                    <td>The split() method divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array.  The division is done by searching for a pattern; where the pattern is provided as the first parameter in the method's call.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.startsWith()</td>
+                    <td>Starts With</td>
+                    <td>The startsWith() method determines whether a string begins with the characters of a specified string, returning true or false as appropriate.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.substring()</td>
+                    <td>Substring</td>
+                    <td>The substring() method returns the part of the string between the start and end indexes, or to the end of the string.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.toLocaleLowerCase()</td>
+                    <td>To Locale Lowercase</td>
+                    <td>The toLocaleLowerCase() method returns the calling string value converted to lower case, according to any locale-specific case mappings.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.toLocalUpperCase()</td>
+                    <td>To Locale Uppercase</td>
+                    <td>The toLocaleUpperCase() method returns the calling string value converted to upper case, according to any locale-specific case mappings.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.toLowerCase()</td>
+                    <td>To Lowercase</td>
+                    <td>The toLowerCase() method returns the calling string value converted to lower case.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.toString()</td>
+                    <td>To String</td>
+                    <td>The toString() method returns a string representing the specified object.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.toUpperCase()</td>
+                    <td>To Uppercase</td>
+                    <td>The toUpperCase() method returns the calling string value converted to uppercase (the value will be converted to a string if it isn't one).</td>
+                </tr>
+                <tr>
+                    <td id="object">string.trim()</td>
+                    <td>Trim</td>
+                    <td>The trim() method removes whitespace from both ends of a string and returns a new string, without modifying the original string. Whitespace in this context is all the whitespace characters (space, tab, no-break space, etc.) and all the line terminator characters (LF, CR, etc.).</td>
+                </tr>
+                <tr>
+                    <td id="object">string.trimEnd()</td>
+                    <td>Trim End</td>
+                    <td>The trimEnd() method removes whitespace from the end of a string. trimRight() is an alias of this method.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.trimStart()</td>
+                    <td>Trim Start</td>
+                    <td>The trimStart() method removes whitespace from the beginning of a string. trimLeft() is an alias of this method.</td>
+                </tr>
+                <tr>
+                    <td id="object">string.valueOf()</td>
+                    <td>Value Of</td>
+                    <td>The valueOf() method returns the primitive value of a String object.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Array Objects</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Object</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description of method in the object</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>array.length()</td>
+                    <td>Length</td>
+                    <td>The length property of an object which is an instance of type Array sets or returns the number of elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater than the highest index in the array.</td>
+                </tr>
+                <tr>
+                    <td>array.concat()</td>
+                    <td>Concatenate</td>
+                    <td>The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.</td>
+                </tr>
+                <tr>
+                    <td>array.copyWithin()</td>
+                    <td>Copy Within</td>
+                    <td>The copyWithin() method shallow copies part of an array to another location in the same array and returns it without modifying its length.</td>
+                </tr>
+                <tr>
+                    <td>array.entries()</td>
+                    <td>Entries</td>
+                    <td>The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array.</td>
+                </tr>
+                <tr>
+                    <td>array.every()</td>
+                    <td>Every</td>
+                    <td>The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.</td>
+                </tr>
+                <tr>
+                    <td>array.fill()</td>
+                    <td>Fill</td>
+                    <td>The fill() method changes all elements in an array to a static value, from a start index (default 0) to an end index (default array.length). It returns the modified array.</td>
+                </tr>
+                <tr>
+                    <td>array.filter()</td>
+                    <td>Filter</td>
+                    <td>The filter() method creates a new array with all elements that pass the test implemented by the provided function.</td>
+                </tr>
+                <tr>
+                    <td>array.find()</td>
+                    <td>Find</td>
+                    <td>The find() method returns the first element in the provided array that satisfies the provided testing function. If no values satisfy the testing function, undefined is returned.</td>
+                </tr>
+                <tr>
+                    <td>array.findIndex()</td>
+                    <td>Find Index</td>
+                    <td>The findIndex() method returns the index of the first element in the array that satisfies the provided testing function. Otherwise, it returns -1, indicating that no element passed the test.</td>
+                </tr>
+                <tr>
+                    <td>array.flat()</td>
+                    <td>Flat</td>
+                    <td>The flat() method creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.</td>
+                </tr>
+                <tr>
+                    <td>array.flatMap()</td>
+                    <td>Flat Map</td>
+                    <td>The flatMap() method returns a new array formed by applying a given callback function to each element of the array, and then flattening the result by one level. It is identical to a map() followed by a flat() of depth 1, but slightly more efficient than calling those two methods separately.</td>
+                </tr>
+                <tr>
+                    <td>array.forEach()</td>
+                    <td>For Each</td>
+                    <td>The forEach() method executes a provided function once for each array element.</td>
+                </tr>
+                <tr>
+                    <td>array.from()</td>
+                    <td>From</td>
+                    <td>The Array.from() static method creates a new, shallow-copied Array instance from an array-like or iterable object.</td>
+                </tr>
+                <tr>
+                    <td>array.includes()</td>
+                    <td>Includes</td>
+                    <td>The includes() method determines whether an array includes a certain value among its entries, returning true or false as appropriate.</td>
+                </tr>
+                <tr>
+                    <td>array.indexOf()</td>
+                    <td>Index Of</td>
+                    <td>The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.</td>
+                </tr>
+                <tr>
+                    <td>array.isArray()</td>
+                    <td>Is Array</td>
+                    <td>The Array.isArray() method determines whether the passed value is an Array.</td>
+                </tr>
+                <tr>
+                    <td>array.join()</td>
+                    <td>Join</td>
+                    <td>The join() method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string. If the array has only one item, then that item will be returned without using the separator.</td>
+                </tr>
+                <tr>
+                    <td>array.keys()</td>
+                    <td>Keys</td>
+                    <td>The keys() method returns a new Array Iterator object that contains the keys for each index in the array.</td>
+                </tr>
+                <tr>
+                    <td>array.lastIndexOf()</td>
+                    <td>Last Index Of</td>
+                    <td>The lastIndexOf() method returns the last index at which a given element can be found in the array, or -1 if it is not present. The array is searched backwards, starting at fromIndex.</td>
+                </tr>
+                <tr>
+                    <td>array.map()</td>
+                    <td>Map</td>
+                    <td>The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.</td>
+                </tr>
+                <tr>
+                    <td>array.of()</td>
+                    <td>Of</td>
+                    <td>The Array.of() method creates a new Array instance from a variable number of arguments, regardless of number or type of the arguments.</td>
+                </tr>
+                <tr>
+                    <td>array.pop()</td>
+                    <td>Pop</td>
+                    <td>The pop() method removes the last element from an array and returns that element. This method changes the length of the array.</td>
+                </tr>
+                <tr>
+                    <td>array.push()</td>
+                    <td>Push</td>
+                    <td>The push() method adds one or more elements to the end of an array and returns the new length of the array.</td>
+                </tr>
+                <tr>
+                    <td>array.reduce()</td>
+                    <td>Reduce</td>
+                    <td>The reduce() method executes a user-supplied “reducer” callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value.</td>
+                </tr>
+                <tr>
+                    <td>array.reduceRight()</td>
+                    <td>Reduce Right</td>
+                    <td>The reduceRight() method applies a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value.</td>
+                </tr>
+                <tr>
+                    <td>array.reverse()</td>
+                    <td>Reverse</td>
+                    <td>The reverse() method reverses an array in place. The first array element becomes the last, and the last array element becomes the first.</td>
+                </tr>
+                <tr>
+                    <td>array.shift()</td>
+                    <td>Shift</td>
+                    <td>The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array.</td>
+                </tr>
+                <tr>
+                    <td>array.slice()</td>
+                    <td>Slice</td>
+                    <td>The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.</td>
+                </tr>
+                <tr>
+                    <td>array.some()</td>
+                    <td>Some</td>
+                    <td>The some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns true if, in the array, it finds an element for which the provided function returns true; otherwise it returns false. It doesn't modify the array.</td>
+                </tr>
+                <tr>
+                    <td>array.sort()</td>
+                    <td>Sort</td>
+                    <td>The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.</td>
+                </tr>
+                <tr>
+                    <td>array.splice()</td>
+                    <td>Splice</td>
+                    <td>The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place. To access part of an array without modifying it, see slice().</td>
+                </tr>
+                <tr>
+                    <td>array.toLocaleString()</td>
+                    <td>To Locale String</td>
+                    <td>The toLocaleString() method returns a string representing the elements of the array. The elements are converted to Strings using their toLocaleString methods and these Strings are separated by a locale-specific String (such as a comma “,”).</td>
+                </tr>
+                <tr>
+                    <td>array.toString()</td>
+                    <td>To String</td>
+                    <td>The toString() method returns a string representing the specified array and its elements.</td>
+                </tr>
+                <tr>
+                    <td>array.unshift()</td>
+                    <td>Unshift</td>
+                    <td>The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.</td>
+                </tr>
+                <tr>
+                    <td>array.values()</td>
+                    <td>Values</td>
+                    <td>The values() method returns a new array iterator object that contains the values for each index in the array.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+
+</html>

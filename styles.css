@@ -1,0 +1,87 @@
+/**
+* Rotan weave
+*/
+html{
+    background:
+            
+    
+    /* Schaduwen, tweede fase: */
+    /*alt -webkit-linear-gradient(68deg, #000 5px, transparent 14px)125px 0, */
+    -webkit-linear-gradient(22deg, #000 6px, transparent 10px)125px 0,
+    -webkit-linear-gradient(-81deg, #000 10px, transparent 17px)125px 25px, 
+    -webkit-linear-gradient(158deg, #000 5px, transparent 12px) -24px 0, 
+    -webkit-linear-gradient(-99deg, #110 7px, transparent 15px)-20px 25px, 
+    
+    -webkit-linear-gradient(22deg, #000 6px, transparent 10px)375px 25px, 
+    -webkit-linear-gradient(-81deg, #000 10px, transparent 17px)375px 0, 
+    -webkit-linear-gradient(158deg, #000 5px, transparent 12px)225px 25px, 
+    -webkit-linear-gradient(-99deg, #000 7px, transparent 15px)225px 0, 
+    
+    /* Witte schaduw 
+    -webkit-linear-gradient(-87deg,rgba(255,255,255,0.3) 0, transparent 25px)375px 0, 
+    -webkit-linear-gradient(-87deg, rgba(255,255,255,0.3) 0, transparent 25px)125px 25px, 
+    */
+    -webkit-radial-gradient(35% 20%,ellipse closest-side, rgba(255,255,255,0.3), transparent 100%)-130px 0, 
+    -webkit-radial-gradient(35% 20%,ellipse closest-side, rgba(255,255,255,0.3), transparent 100%)120px 25px, 
+    
+            
+    -webkit-linear-gradient(93deg, rgba(0,0,0,0.8) 0, transparent 30px)520px 0, 
+    -webkit-linear-gradient(93deg, rgba(0,0,0,0.7) 0, transparent 30px)270px 25px, 
+            
+    /*
+     schuine schaduw voor op tweeling rietjes: */
+    -webkit-linear-gradient(-78deg, rgba(0,0,0,0.6) 3px, transparent 30px)25px 25px, 
+    -webkit-linear-gradient(-78deg, rgba(0,0,0,0.6) 3px, transparent 30px)275px 0, 
+    
+    
+    /* Teken de 2e rij: */
+    /*-webkit-linear-gradient(173deg, #000 0, transparent 4px) 28px 0, */
+    /* 2e rij lichtrandjes
+    -webkit-linear-gradient(170deg, #202000 8px, transparent 8px) 29px 0, 
+    -webkit-linear-gradient(-10deg, #202000 4px, transparent 4px) 25px 25px, */
+    -webkit-linear-gradient(138deg, #424222 18px, transparent 18px) 50px 0, 
+    -webkit-linear-gradient(318deg, #424222 18px, transparent 18px) 28px 25px, 
+    -webkit-linear-gradient(138deg, #424222 18px, transparent 18px) 75px 0, 
+    -webkit-linear-gradient(318deg, #424222 18px, transparent 18px) 52px 25px, 
+    -webkit-linear-gradient(94deg, #929244 25px, transparent 25px) 475px 0, 
+    -webkit-linear-gradient(274deg, #929244 25px, transparent 25px) 125px 25px, 
+    
+    /*Achtergrond 2e rij:*/
+    -webkit-linear-gradient(90deg, #000 25px, transparent 25px, transparent 50px),
+    
+    -webkit-linear-gradient(0deg, #929244 225px, #000 225px, #000 275px, #424222 275px, #424222 300px, #000 300px, #424222 304px, #424222 325px,  #000 325px, #000 375px, #929244 375px);
+        background-color: #ff0;
+    background-size: 500px 50px;
+    }
+
+body {
+    padding: 200px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: Red;
+    text-align: center;
+    font-size: 100;
+    background-color: #000;
+    margin-left: 300px;
+    margin-right: 300px
+}
+
+td {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 20px;
+    background-color: white;
+    border: medium solid coral;
+    padding: 10px;
+}
+
+#object {
+    font-weight: bold;
+}
+
+th {
+    background-color: teal;
+    font-size: 50px;
+    font-weight: bold;
+}
